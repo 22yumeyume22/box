@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="一个可以旋转、放大的记忆立方体。">
+<title>Memory Cube</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./app.js" defer></script>
+</head>
+<body>
+<main id="stage" tabindex="0" aria-label="互动立方体。单击旋转，双击放大或还原。键盘方向键或空格旋转，Enter 放大，Escape 还原。">
+<div class="scene"><div id="zoom"><div id="cube">
+<div class="face front"><img src="./assets/front.jpg" alt="正面拼贴作品" draggable="false"></div>
+<div class="face back"><img src="./assets/back.jpg" alt="背面拼贴作品" draggable="false"></div>
+<div class="face right"><img src="./assets/right.jpg" alt="右面拼贴作品" draggable="false"></div>
+<div class="face left" aria-label="纯白留白面"></div>
+<div class="face top"><img src="./assets/top.jpg" alt="顶面拼贴作品" draggable="false"></div>
+<div class="face bottom"><img src="./assets/bottom.jpg" alt="底面拼贴作品" draggable="false"></div>
+</div></div></div>
+</main>
+</body>
+</html>
